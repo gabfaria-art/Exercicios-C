@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    float nota1;
+    float nota2;
+    float nota3;
+    float media;
+    
+    printf("Introduza a nota de matemática do 1º período:");
+    scanf("%f" , &nota1);
+    printf("Introduza a nota de matemática do 2º período:");
+    scanf("%f" , &nota2);
+    printf("Introduza a nota de matemática do 3º período");
+    scanf("%f" , &nota3);
+    
+    media=(nota1+nota2+nota3)/3;
+    
+    printf("A média artimética das notas é: %2f" , media);
+    
+    return(0);
+    
+}
