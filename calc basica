@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float n1;
+    float n2;
+    float soma;
+    float sub1;
+    float sub2;
+    float mult;
+    float div1;
+    float div2;
+    
+    printf("Introduza um números:");
+    scanf("%f" , &n1);
+    printf("Introduza outro número:");
+    scanf("%f" , &n2);
+    soma=n1+n2;
+    sub1=n1-n2;
+    sub2=n2-n1;
+    mult=n1*n2;
+    div1=n1/n2;
+    div2=n2/n1;
+    
+    printf("O valor da soma dos números %.2f e %.2f é: %.2f\n", n1, n2, soma);
+    printf("O valor da subtração do número %.2f pelo número %.2f é: %.2f\n", n1, n2, sub1);
+    printf("O valor da subtração do número %.2f pelo número %.2f é: %.2f\n", n2, n1, sub2);
+    printf("O valor da múltiplicação de %.2f por %.2f é: %.2f\n", n1, n2, mult);
+    printf("O valor da divisão de %.2f por %.2f é: %.2f\n", n1, n2, div1);
+    printf("O valor da divisão de %.2f por %.2f é: %.2f\n", n2, n1, div2);
+
+
+    return(0);
+    
+}
