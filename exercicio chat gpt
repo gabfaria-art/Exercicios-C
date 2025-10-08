@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    int nota;
+    int soma=0;
+    float media;
+    int cont=0;
+
+    while (cont<6){
+    printf("Introduza a nota da disciplina(0-20):");
+    scanf("%d" , &nota);
+    cont=cont+1;
+    soma=soma+nota;
+    }
+    media= (float)soma/cont;
+    printf("A média do aluno/a é: %f\n" , media);
+    
+    if  (media>=18) {
+    printf("Aluno/a Aprovado com excelência!\n");
+} else if (media>=9.5) {
+    printf("Aluno/a Aprovado.\n");
+} else { 
+    printf("Aluno Reprovado.\n");
+}
+return(0);
+}
