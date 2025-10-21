@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float CP,CT,NF;
+    printf("Nota final de Fundamentos de Algoritmos e Estrutura de Dados");
+    printf("\nIntroduza a nota do CP:");
+    scanf("%f", CP);
+    printf("Introduza a nota do CT:");
+    scanf("%f", CT);
+    NF = CT * 0,40 + CP * 0,60;
+    if (NF>9,5) {
+        printf("A nota final é: %f",NF);
+        printf("Aprovado!");
+    }
+return 0;
+}
