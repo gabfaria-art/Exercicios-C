@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    int dia;
+    printf("1-Domingo\n 2-Segunda feira\n 3-Terça feira\n 4-Quarta feira\n 5-Quinta feira\n 6-Sexta feira\n 7-Sábado");
+    printf("Introduza o número de acordo com o dia da semana desejado:");    ~
+    scanf("%d", &dia);
+    switch (dia) {
+        case 1:
+            printf("Domingo");
+            break;
+        case 2:
+            printf("Segunda-feira");
+            break;
+        case 3:
+            printf("Terça-feira");
+            break;
+        case 4:
+            printf("Quarta-feira");
+            break;
+        case 5:
+            printf("Quinta-feira");
+            break;
+        case 6:
+            printf("Sexta-feira");
+            break;
+        case 7:
+            printf("Sábado");
+            break;
+        default:
+            printf("Número inválido! Introduza um número entre 1-7");
+    }
+return 0;
+}
